@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Strona główna -->
+  <url>
+    <loc>https://curvesandlight.site/</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Portret kobiecy we wnętrzu -->
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/portret-kobiecy-we-wnetrzu-czerwona-stylizacja.webp</image:loc>
+      <image:title>Portret kobiecy we wnętrzu</image:title>
+      <image:caption>
+        Portret kobiecy we wnętrzu, ciemne tło, czerwona stylizacja i czarne pończochy |
+        Портрет женщины в интерьере, темный фон, красный образ и черные чулки
+      </image:caption>
+    </image:image>
+
+    <!-- Pionowy portret kobiecy -->
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/pionowy-portret-kobiecy-we-wnetrzu.webp</image:loc>
+      <image:title>Pionowy portret kobiecy</image:title>
+      <image:caption>
+        Pionowy portret kobiecy we wnętrzu, czerwona sukienka maxi, pełna sylwetka, glamour |
+        Вертикальный женский портрет в интерьере, красное макси-платье, полный силуэт, гламур
+      </image:caption>
+    </image:image>
+
+    <!-- Zbliżenie portretowe kobiety -->
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/zblizenie-portretowe-kobiety-czerwona-stylizacja.webp</image:loc>
+      <image:title>Zbliżenie portretowe</image:title>
+      <image:caption>
+        Zbliżenie portretowe kobiety, czerwony makijaż, złote kolczyki, detal oczu, fotografia beauty |
+        Крупный план женского портрета, красный макияж, золотые серьги, глаза, бьюти-съемка
+      </image:caption>
+    </image:image>
+
+    <!-- Pełna sylwetka w czerwonej stylizacji -->
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/pelna-sylwetka-czerwona-stylizacja-we-wnetrzu.webp</image:loc>
+      <image:title>Pełna sylwetka w czerwonej stylizacji</image:title>
+      <image:caption>
+        Pełna sylwetka w czerwonej sukience, elegancka poza, minimalistyczne wnętrze, miękkie światło |
+        Полный рост в красном платье, элегантная поза, минималистичный интерьер, мягкий свет
+      </image:caption>
+    </image:image>
+
+  </url>
+
+  <!-- Podstrony galerii -->
+  <url>
+    <loc>https://curvesandlight.site/pionowy-portret-kobiecy.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/pionowy-portret-kobiecy-we-wnetrzu.webp</image:loc>
+      <image:title>Pionowy portret kobiecy</image:title>
+      <image:caption>
+        Pionowy portret kobiecy we wnętrzu, czerwona sukienka maxi, pełna sylwetka, glamour |
+        Вертикальный женский портрет в интерьере, красное макси-платье, полный силуэт, гламур
+      </image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://curvesandlight.site/zblizenie-portretowe-kobiety.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/zblizenie-portretowe-kobiety-czerwona-stylizacja.webp</image:loc>
+      <image:title>Zbliżenie portretowe</image:title>
+      <image:caption>
+        Zbliżenie portretowe kobiety, czerwony makijaż, złote kolczyki, detal oczu, fotografia beauty |
+        Крупный план женского портрета, красный макияж, золотые серьги, глаза, бьюти-съемка
+      </image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://curvesandlight.site/pelna-sylwetka-czerwona-stylizacja.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://curvesandlight.site/img/pelna-sylwetka-czerwona-stylizacja-we-wnetrzu.webp</image:loc>
+      <image:title>Pełna sylwetka w czerwonej stylizacji</image:title>
+      <image:caption>
+        Pełna sylwetka w czerwonej sukience, elegancka poza, minimalistyczne wnętrze, miękkie światło |
+        Полный рост в красном платье, элегантная поза, минималистичный интерьер, мягкий свет
+      </image:caption>
+    </image:image>
+  </url>
+
+</urlset>

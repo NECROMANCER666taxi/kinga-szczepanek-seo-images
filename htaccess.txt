@@ -1,0 +1,41 @@
+RewriteEngine On
+
+# 1. Wymuś HTTPS oraz kanoniczną wersję bez www na nowej domenie.
+#    Jeżeli stara domena nadal trafi na ten hosting, również zostanie przekierowana na nową.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.curvesandlight\.site$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(www\.)?kingaszczepanek\.com$ [NC]
+RewriteRule ^ https://curvesandlight.site%{REQUEST_URI} [L,R=301]
+
+# 2. Usuń /index.html z adresu
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*/)?index\.html$ https://curvesandlight.site/$1 [L,R=301]
+
+# 3. Włącz kompresję tekstowych zasobów
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# 4. Cache statycznych plików
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 30 days"
+  ExpiresByType text/javascript "access plus 30 days"
+  ExpiresByType application/javascript "access plus 30 days"
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType image/webp "access plus 90 days"
+  ExpiresByType image/jpeg "access plus 90 days"
+  ExpiresByType image/png "access plus 90 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 90 days"
+</IfModule>
+
+# 5. Podstawowe nagłówki bezpieczeństwa
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# 6. Domyślny dokument
+DirectoryIndex index.html

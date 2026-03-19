@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&utm_id&gclid&fbclid&yclid&ysclid
+
+Sitemap: https://curvesandlight.site/sitemap.xml
